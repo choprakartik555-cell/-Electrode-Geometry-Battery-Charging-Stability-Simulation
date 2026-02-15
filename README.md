@@ -35,5 +35,5 @@ The simulation utilizes **PyBaMM** (Python Battery Mathematical Modelling) to so
 ---
 
 **Developed by Kartik Chopra**
+
 MS Chemical Engineering, Purdue University
-BE Chemical Engineering, BITS Pilani
