@@ -35,7 +35,8 @@ The simulation utilizes **PyBaMM** (Python Battery Mathematical Modelling) to so
 ---
 
 **Developed by Kartik Chopra**
+
 *Master of Science in Chemical Engineering, Purdue University
-*Focus: Battery Modeling, Simulation, and AI-Driven Chemical Engineering.*
+
 
 **Would you like me to add a "Project Background" section that explains the specific electrochemical equations used in the DFN model?**
