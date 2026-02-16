@@ -166,7 +166,7 @@ else:
     if t_max_c > 50: reasons.append(f"Thermal Violation: {t_max_c:.1f}°C (Limit: 50°C).")
     if temp_c < 0: reasons.append("Sub-zero hazard: High risk of lithium plating.")
     if anode_pot < 0.005: reasons.append(f"Plating Risk: Anode Potential at {anode_pot*1000:.1f} mV.")
-    if v_final > 4.4: reasons.append(f"Overvoltage: {v_final:.2f}V (Limit: 4.4V).")
+    if v_final > 5.0: reasons.append(f"Overvoltage: {v_final:.2f}V (Limit: 5.0V).")
 
     if not reasons:
         st.success(f"✅ **SAFE TO CHARGE:** Parameters are within safe operation boundaries.")
