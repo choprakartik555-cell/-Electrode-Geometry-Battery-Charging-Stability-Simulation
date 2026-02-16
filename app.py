@@ -99,7 +99,7 @@ def run_simulation(choice, current, temp, n_t, p_t, p_r, a_f, cooling):
         "Ambient temperature [K]": temp + 273.15,
         "Current function [A]": -abs(current),
         "Negative electrode thickness [m]": n_t,
-        "Positive electrode thickness [m]": p_t,
+        "Positive electrode thickness [m]": cathode_thickness,
         "Negative particle radius [m]": p_r,
         "Negative electrode active material volume fraction": a_f,
         "Total heat transfer coefficient [W.m-2.K-1]": cooling,
