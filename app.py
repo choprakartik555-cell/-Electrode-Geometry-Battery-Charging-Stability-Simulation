@@ -97,7 +97,7 @@ def run_simulation(choice, current, temp, n_t, p_t, p_r, a_f, cooling):
     params.update({
         "Upper voltage cut-off [V]": 5.0, 
         "Ambient temperature [K]": temp + 273.15,
-        "Current function [A]": current,
+        "Current function [A]": -abs(current),
         "Negative electrode thickness [m]": n_t,
         "Positive electrode thickness [m]": p_t,
         "Negative particle radius [m]": p_r,
