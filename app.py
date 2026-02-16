@@ -111,7 +111,7 @@ def run_simulation(choice, current, temp, n_t, p_t, p_r, a_f, cooling):
         sol = sim.solve([0, 900]) # 15 min window
         return sol
     except Exception as e:
-        return str(e)
+        return "SOLVER CRASH: Physical limits exceeded (Mass transport or Stoichiometric saturation)."
 
 sol = run_simulation(battery_type, charge_current, temp_c, n_thick, p_thick, p_rad, active_frac, cooling_coeff)
 
